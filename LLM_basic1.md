@@ -629,7 +629,8 @@ LLM은 코퍼스의 지식을 매개변수로 인코딩합니다:
 
 # 챕터2. 임베딩(Embedding)의 이론적 기반과 응용
 <h2 id="chapter2">📖 챕터2. 임베딩(Embedding)의 이론적 기반과 응용</h2>
-<p>단어/문장 임베딩의 기본 개념, Word2Vec, BERT 임베딩 등 핵심 이론을 설명합니다.</p>
+<p>단어/문장 임베딩의 기본 개념, Word2Vec, BERT 임베딩 등 핵심 이론을 설명합니다.</p>  
+
 ## 2.1. 임베딩의 정의와 수학적 기초
 
 임베딩은 고차원 또는 비수치적 데이터(텍스트, 이미지, 그래프 등)를 저차원 연속 벡터 공간으로 변환하는 기법입니다. 이는 원본 데이터의 의미적 관계와 구조를 보존하면서 기계 학습 알고리즘이 처리할 수 있는 형태로 변환하는 과정입니다.
@@ -1125,7 +1126,8 @@ LLM은 훈련된 데이터(학습 코퍼스) 외의 정보가 필요한 전문�
 
 # 챕터3. RAG의 주요 컴포넌트 최적화
 <h2 id="chapter3">📖 챕터3. RAG(Retrieval-Augmented Generation) 아키텍처</h2>
-<p>RAG 모델의 구조, retriever-generator 연동 방식, 응답 생성 흐름을 다룹니다.</p>
+<p>RAG 모델의 구조, retriever-generator 연동 방식, 응답 생성 흐름을 다룹니다.</p>  
+
 # 📘 RAG (Retrieval-Augmented Generation) 아키텍처 정리
 
 RAG(Retrieval-Augmented Generation)은 Open-domain Question Answering 및 정보 생성(generative tasks)에서 자주 사용되는 **지식 기반 생성 모델 아키텍처**입니다. RAG는 간단히 말하면 **"검색(Retrieval)"과 "생성(Generation)"을 결합한 하이브리드 모델**로, 외부 지식 베이스로부터 정보를 가져와 문장을 생성할 때 이를 활용합니다.
