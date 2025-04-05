@@ -1,6 +1,14 @@
-# 챕터6. Chunking 구현 및 실제 적용 사례
+ <h2>📘 목차</h2> 
+   
+  <li><a href="#chapter6">챕터6. Chunking 기법과 최적화</a></li>
 
+<li><a href="#chapter7">챕터7. 프롬프트 엔지니어링</a></li>
+
+  <li><a href="#chapter8">챕터8. 파인튜닝과 어댑테이션</a></li>
+  
 ## 6.1 텍스트 분석 및 검색 시스템에서의 Chunking 구현
+<h2 id="chapter6">📖 챕터6. Chunking 기법과 최적화</h2>
+<p>텍스트 슬라이싱, 윈도잉 기법, 컨텍스트 길이 관리 전략을 다룹니다.</p>  
 
 ### 6.1.1 오픈 소스 Chunking 라이브러리
 
@@ -522,6 +530,8 @@ def scientific_paper_chunker(paper):
 
 
 # 챕터7. 프롬프트 엔지니어링의 이론적 기반과 응용
+<h2 id="chapter7">📖 챕터7. 프롬프트 엔지니어링</h2>
+<p>Few-shot, Chain-of-Thought, 구조화 프롬프트 전략을 소개합니다.</p>  
 
 ## 7.1 프롬프트 엔지니어링의 정의와 기본 개념
 
@@ -1466,7 +1476,7 @@ $P_{multimodal} = \{T_{instruction}, I_{image}, T_{context}\}$
 
 각 메트릭에 대한 점수와 그 이유를 제시하고, 종합 성능 점수를 계산하세요.
 가장 효과적인 프롬프트 변형을 추천하고 그 이유를 설명하세요.
-```
+
 
 ### 7.9.2 학습 및 참고 자료
 
@@ -1494,7 +1504,9 @@ $P_{multimodal} = \{T_{instruction}, I_{image}, T_{context}\}$
   
 
   
-# 챕터8. 파인튜닝과 어댑테이션의 이론적 기반과 응용
+# 챕터8. 파인튜닝과 어댑테이션의 이론적 기반과 응용  
+<h2 id="chapter8">📖 챕터8. 파인튜닝과 어댑테이션</h2>
+<p>LoRA, PEFT, Domain-adaptation 등 LLM 미세조정 방법론을 설명합니다.</p>  
 
 ## 8.1 파인튜닝의 이론적 기반
 
